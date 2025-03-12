@@ -1,0 +1,15 @@
+c:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\bin\Debug\net9.0\lab-6-typing-trainer-ChandlerWixom.exe
+C:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\bin\Debug\net9.0\lab-6-typing-trainer-ChandlerWixom.deps.json
+C:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\bin\Debug\net9.0\lab-6-typing-trainer-ChandlerWixom.runtimeconfig.json
+c:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\bin\Debug\net9.0\lab-6-typing-trainer-ChandlerWixom.dll
+c:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\bin\Debug\net9.0\lab-6-typing-trainer-ChandlerWixom.pdb
+c:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\obj\Debug\net9.0\lab-6-typing-trainer-ChandlerWixom.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\obj\Debug\net9.0\lab-6-typing-trainer-ChandlerWixom.AssemblyInfoInputs.cache
+c:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\obj\Debug\net9.0\lab-6-typing-trainer-ChandlerWixom.AssemblyInfo.cs
+c:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\obj\Debug\net9.0\lab-6-typing-trainer-ChandlerWixom.csproj.CoreCompileInputs.cache
+c:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\obj\Debug\net9.0\lab-6-typing-trainer-ChandlerWixom.sourcelink.json
+c:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\obj\Debug\net9.0\lab-6-typing-trainer-ChandlerWixom.dll
+c:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\obj\Debug\net9.0\refint\lab-6-typing-trainer-ChandlerWixom.dll
+c:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\obj\Debug\net9.0\lab-6-typing-trainer-ChandlerWixom.pdb
+C:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\obj\Debug\net9.0\lab-6-typing-trainer-ChandlerWixom.genruntimeconfig.cache
+C:\Users\Frost\my-code-dir\lab-6-typing-trainer-ChandlerWixom\obj\Debug\net9.0\ref\lab-6-typing-trainer-ChandlerWixom.dll
