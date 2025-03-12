@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-6-typing-trainer-ChandlerWixom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a9765bf131f5a41ccb8dcfec13d4d016bee12ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48cbb61391fba4ceb0cd1d212162f27c6fc7c3f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-6-typing-trainer-ChandlerWixom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-6-typing-trainer-ChandlerWixom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
