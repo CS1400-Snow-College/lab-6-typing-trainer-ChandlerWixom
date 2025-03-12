@@ -1,10 +1,14 @@
 ﻿// Chandler Wixom, 3/12/2025, Lab 6 Typing Trainer 
+using System.Diagnostics;
+
 Console.BackgroundColor = ConsoleColor.Black;
 Console.ForegroundColor = ConsoleColor.White;
 Console.Clear();
 Console.WriteLine("Hello, this program is a typing trainer.You will be given a random set of lines and your job is to type it out as fast and accuratly as posible.\n\tPress any key to start...");
+Stopwatch stopwatch = new Stopwatch(); // creates a stopwatch
 Console.ReadKey(true);
 Console.Clear();
+
 
 string[] sentances = new string[5];
 sentances[0] = "Hi,\nKids";
@@ -15,31 +19,34 @@ sentances[3] = "Oh God! What have I done? I've set all my notes and books and st
 sentances[4] = "I see the hard facts of life! I am realistic, something you're incapable of!\nYou'd be better off with one of those stupid little morons like Charlene who you could just sleep with and throw away when you're done!\nYou can't cope with a mature woman!";
 
 Random rand = new Random();
-int which = rand.Next(0,5);
+int which = rand.Next(0,5); // creates a random a selects one of the sentances to be used
 
-which = 0;
+which = 0; // testing
 
 Console.Write(sentances[which]);
 Console.SetCursorPosition(0,0);
 
-int missedKeys = 0;
-for (int i = 0; i < sentances[which].Length; i++)
-{
-    var tempkey = Console.ReadKey(true).KeyChar;
 
-if (tempkey == sentances[which][i])
+stopwatch.Start();
+int missedKeys = 0;
+
+for (int i = 0; i < sentances[which].Length; i++) // goes through all char in the string 
+{
+    var tempkey = Console.ReadKey(true).KeyChar; // reads the key without writeing it but it saves the key
+
+if (tempkey == sentances[which][i]) // if the key is acurate then its writes it in green
 {
     Console.ForegroundColor = ConsoleColor.Green;
     Console.Write(sentances[which][i]);
     Console.ForegroundColor = ConsoleColor.White;
 
 }
-else
+else // if the key isnt accurate then it writes it in red and adds to the missed counter
 {
     Console.ForegroundColor = ConsoleColor.Red;
     Console.Write(sentances[which][i]);
     Console.ForegroundColor = ConsoleColor.White;
-    if (sentances[which][i] != sentances[which][3]) // i have litteraly no clue how to write \n as a char??? but his helps prevent false misses lol
+    if (sentances[which][i] != sentances[which][3]) // i have litteraly no clue how to write \n as a char??? but his helps prevent false misses lol iduno
     {
         missedKeys++;
     }
@@ -47,9 +54,11 @@ else
 
    
 }
+stopwatch.Stop();
+double timeSpent = stopwatch.ElapsedMilliseconds / 1000; // turns stopwatch time into seconds not milliseconds
 
 Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine($"You missed {missedKeys} of {sentances[which].Length} keys.");
-
+Console.WriteLine($"That took you {timeSpent} seconds.");
 Console.WriteLine(sentances[which][3]);
 
